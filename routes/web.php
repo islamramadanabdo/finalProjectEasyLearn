@@ -40,3 +40,4 @@ Route::resource('admin/categories' , CategoryController::class);
 // ============Fronted Routes============================
 // ======================================================
 Route::get('home' , [HomeController::class , 'index'])->name('frontend.home.index');
+Route::get('/home2' ,[HomeController::class , 'index'])->name('frontend.home.index');
